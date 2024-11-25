@@ -21,8 +21,14 @@ public class Bot extends TelegramLongPollingBot {
         if(update.hasMessage() && update.getMessage().hasText()){
             if(update.getMessage().getText().equals("/start")){
                 System.out.println("Сработал /start");
+                System.out.println("Сработал /start");
+                System.out.println("Сработал /start");
+                System.out.println("Сработал /start");
             }
         }else if(update.hasCallbackQuery()){
+            System.out.println("Сработал hasCallbackQuery");
+            System.out.println("Сработал hasCallbackQuery");
+            System.out.println("Сработал hasCallbackQuery");
             System.out.println("Сработал hasCallbackQuery");
         }
     }
